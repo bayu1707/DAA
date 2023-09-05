@@ -1,0 +1,15 @@
+Pseudocode import math
+fungsi volume_tabung(r, t) return pi*r**2*t
+jari_jari = 3
+tinggi = 5
+tampilkan volume_tabung
+
+Kode:
+import math
+
+def volume_tabung(r, t):
+return math.pi*r**2*t
+
+jari_jari = 3
+tinggi = 5
+print("Jari-jari =", jari_jari, "\nTinggi =", tinggi, "\nLuas = ", volume_tabung(jari_jari, tinggi))
