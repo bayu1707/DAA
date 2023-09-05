@@ -1,0 +1,17 @@
+fungsi kpk(a, b)
+if a>b: terbesar = a else: terbesar = b
+while: if terbesar % a == 0 and terbesar % b == 0: hasil = terbesar; break else: terbesar + 1
+simpan hasil tampilkan hasil
+
+Kode:
+def kpk(a, b): if a > b:
+terbesar = a else:
+terbesar = b
+
+while True:
+if terbesar % a == 0 and terbesar % b == 0: hasil = terbesar
+break terbesar += 1
+return hasil a = 3
+b = 4
+ 
+print("KPK dari", a, "dan", b, "adalah", kpk(a, b))
