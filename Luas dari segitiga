@@ -1,0 +1,6 @@
+def luas_segitiga(alas, tinggi):
+return 0.5*alas*tinggi
+
+alas = 25
+tinggi = 30
+print("Alas =", alas, "\nTinggi =", tinggi, "\nLuas = ", luas_segitiga(alas, tinggi))
