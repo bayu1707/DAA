@@ -1,0 +1,18 @@
+fungsi menukar(x, y) piring = [x, y, ""]
+for i dari 0 sampai jumlah index piring piring[2] = x
+piring[0] = y piring[1] = x piring[2] = "" tampilkan piring
+
+Kode:
+def menukar(x, y):
+piring = [x, y, ""]
+for i in range(len(piring)): piring[2] = x
+piring[0] = y piring[1] = x piring[2] = ""
+
+print("piring", i+1, "=", str(piring[i]))
+
+
+x = "manggis" y = "pisang"
+
+print("piring 1 =", x) print("piring 2 =", y) print("piring 3 = ")
+ 
+print("\nHasil penukaran:") menukar(x, y)
